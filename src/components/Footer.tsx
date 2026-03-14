@@ -26,7 +26,6 @@ export function Footer() {
               alt="iAteneo"
               width={24}
               height={24}
-              className="brightness-[10]"
             />
             <span className="text-sm font-semibold text-foreground">
               iAteneo

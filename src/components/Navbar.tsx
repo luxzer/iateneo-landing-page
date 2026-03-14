@@ -31,7 +31,6 @@ export function Navbar() {
               alt="iAteneo"
               width={28}
               height={28}
-              className="brightness-[10]"
             />
             <span className="text-lg font-bold tracking-tight text-foreground">
               iAteneo
