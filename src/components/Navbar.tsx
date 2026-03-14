@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Menu, X, Home } from "lucide-react";
+import logo from "../../public/logo.svg";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -27,7 +28,7 @@ export function Navbar() {
           {/* Logo + Name */}
           <a href="#" className="flex items-center gap-2.5">
             <Image
-              src="/logo.svg"
+              src={logo}
               alt="iAteneo"
               width={28}
               height={28}

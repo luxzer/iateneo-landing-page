@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Twitter, Github } from "lucide-react";
+import logo from "../../public/logo.svg";
 
 const links = [
   { label: "Home", href: "#" },
@@ -22,7 +23,7 @@ export function Footer() {
           {/* Logo */}
           <div className="flex items-center gap-2.5">
             <Image
-              src="/logo.svg"
+              src={logo}
               alt="iAteneo"
               width={24}
               height={24}
