@@ -19,7 +19,7 @@ export function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-[#0D0D10]/80 backdrop-blur-xl border-b border-border"
+          ? "bg-black/80 backdrop-blur-xl border-b border-border"
           : "bg-transparent"
       }`}
     >
@@ -72,7 +72,7 @@ export function Navbar() {
 
       {/* Mobile dropdown */}
       {mobileOpen && (
-        <div className="md:hidden bg-[#0D0D10]/95 backdrop-blur-xl border-b border-border">
+        <div className="md:hidden bg-black/95 backdrop-blur-xl border-b border-border">
           <div className="px-6 py-4 flex flex-col gap-3">
             <a
               href="#"

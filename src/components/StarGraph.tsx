@@ -204,7 +204,7 @@ export function StarGraph() {
       const boxY = star.y - star.baseRadius * 3 - boxH - 8;
 
       // Box background
-      ctx.fillStyle = "rgba(13, 13, 16, 0.92)";
+      ctx.fillStyle = "rgba(0, 0, 0, 0.92)";
       const r = 8;
       ctx.beginPath();
       ctx.moveTo(boxX + r, boxY);
@@ -229,7 +229,7 @@ export function StarGraph() {
       ctx.moveTo(star.x - 6, boxY + boxH);
       ctx.lineTo(star.x, boxY + boxH + 6);
       ctx.lineTo(star.x + 6, boxY + boxH);
-      ctx.fillStyle = "rgba(13, 13, 16, 0.92)";
+      ctx.fillStyle = "rgba(0, 0, 0, 0.92)";
       ctx.fill();
 
       // Text

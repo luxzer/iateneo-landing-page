@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0D0D10;
+  --background: #000000;
   --foreground: oklch(94.2% 0 0);
   --card: oklch(0.903% 0 0);
   --card-foreground: oklch(94.2% 0 0);
@@ -56,6 +56,7 @@
 
 html {
   scroll-behavior: smooth;
+  background: var(--background);
 }
 
 body {
